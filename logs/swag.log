@@ -1,0 +1,116 @@
+2025-03-03 15:26:27:INFO:****************Test_01_Admin_Login***********************
+2025-03-03 15:26:27:INFO:****************title_verification***********************
+2025-03-03 15:26:32:INFO:****************login_verification***********************
+2025-03-03 15:26:39:INFO:****************text_match***********************
+2025-03-03 15:26:42:INFO:****************invalid_verification***********************
+2025-03-03 15:26:48:INFO:****************text_match***********************
+2025-03-03 15:52:27:INFO:****************Test_01_Admin_Login***********************
+2025-03-03 15:52:27:INFO:****************title_verification***********************
+2025-03-03 15:52:41:INFO:****************login_verification***********************
+2025-03-03 15:52:49:INFO:****************text_match***********************
+2025-03-03 15:52:58:INFO:****************invalid_verification***********************
+2025-03-03 15:53:06:INFO:****************text_match***********************
+2025-03-03 15:59:58:INFO:****************login_verification***********************
+2025-03-03 16:00:00:INFO:****************Test_01_Admin_Login***********************
+2025-03-03 16:00:00:INFO:****************title_verification***********************
+2025-03-03 16:00:06:INFO:****************invalid_verification***********************
+2025-03-03 16:00:07:INFO:****************text_match***********************
+2025-03-03 16:00:13:INFO:****************text_match***********************
+2025-03-03 17:38:06:INFO:****************Test_01_Admin_Login***********************
+2025-03-03 17:38:06:INFO:****************title_verification***********************
+2025-03-03 17:38:13:INFO:****************login_verification***********************
+2025-03-03 17:38:20:INFO:****************text_match***********************
+2025-03-03 17:38:22:INFO:****************invalid_verification***********************
+2025-03-03 17:38:29:INFO:****************text_match***********************
+2025-03-03 17:52:35:INFO:****************Test_01_Admin_Login***********************
+2025-03-03 17:52:35:INFO:****************title_verification***********************
+2025-03-03 17:52:39:INFO:****************login_verification***********************
+2025-03-03 17:52:45:INFO:****************text_match***********************
+2025-03-03 17:52:47:INFO:****************invalid_verification***********************
+2025-03-03 17:52:54:INFO:****************text_match***********************
+2025-03-03 19:37:46:INFO:****************login_verification***********************
+2025-03-03 19:38:58:INFO:****************login_verification***********************
+2025-03-03 19:39:06:INFO:This test data not be passed
+2025-03-03 19:40:02:INFO:****************login_verification***********************
+2025-03-03 19:40:19:INFO:This test data not be passed
+2025-03-03 19:41:53:INFO:****************login_verification***********************
+2025-03-03 19:42:10:INFO:This test data not be passed
+2025-03-03 19:46:01:INFO:****************login_verification***********************
+2025-03-03 19:46:18:INFO:This test data not be passed
+2025-03-03 19:47:24:INFO:****************login_verification***********************
+2025-03-03 19:47:42:INFO:This test data not be passed
+2025-03-03 19:50:55:INFO:****************login_verification***********************
+2025-03-03 19:51:13:INFO:Test should be Passed
+2025-03-03 19:54:53:INFO:****************login_verification***********************
+2025-03-03 19:55:12:INFO:Test should be Passed
+2025-03-03 19:56:57:INFO:****************login_verification***********************
+2025-03-03 19:57:15:INFO:Test should be Passed
+2025-03-03 19:59:54:INFO:****************login_verification***********************
+2025-03-03 20:00:12:INFO:Test should be Passed
+2025-03-03 20:00:27:INFO:Test should be Passed
+2025-03-03 20:00:43:INFO:This test data not be passed
+2025-03-03 20:03:32:INFO:****************login_verification***********************
+2025-03-03 20:03:48:INFO:Test should be Passed
+2025-03-03 20:04:04:INFO:This test data not be passed
+2025-03-03 20:04:04:INFO:Test data driven is Pass
+2025-03-03 20:22:58:INFO:****************login_verification***********************
+2025-03-03 20:23:15:INFO:Test should be Passed
+2025-03-03 20:23:30:INFO:This test data not be passed
+2025-03-03 20:23:30:INFO:Test data driven is Pass
+2025-03-03 20:28:34:INFO:****************login_verification***********************
+2025-03-03 20:28:51:INFO:Test should be Passed
+2025-03-03 20:32:18:INFO:****************login_verification***********************
+2025-03-03 20:32:35:INFO:Test should be Passed
+2025-03-03 20:34:01:INFO:****************login_verification***********************
+2025-03-03 20:34:19:INFO:Test should be Passed
+2025-03-03 20:36:20:INFO:****************login_verification***********************
+2025-03-03 20:36:39:INFO:Test should be Passed
+2025-03-03 20:37:36:INFO:****************login_verification***********************
+2025-03-03 20:37:53:INFO:Test should be Passed
+2025-03-03 20:45:06:INFO:****************login_verification***********************
+2025-03-03 20:45:24:INFO:Test should be Passed
+2025-03-03 20:47:42:INFO:****************login_verification***********************
+2025-03-03 20:48:00:INFO:Test should be Passed
+2025-03-03 20:49:38:INFO:****************login_verification***********************
+2025-03-03 20:49:56:INFO:Test should be Passed
+2025-03-03 20:50:11:INFO:This test data not be passed
+2025-03-03 20:51:38:INFO:****************login_verification***********************
+2025-03-03 20:51:55:INFO:Test should be Passed
+2025-03-03 20:52:10:INFO:This test data not be passed
+2025-03-03 20:52:43:INFO:****************login_verification***********************
+2025-03-03 20:53:19:INFO:Test should be Passed
+2025-03-03 20:53:55:INFO:This test data not be passed
+2025-03-03 20:57:23:INFO:****************login_verification***********************
+2025-03-03 20:58:01:INFO:Test should be Passed
+2025-03-03 20:58:36:INFO:Test should be Passed
+2025-03-03 20:59:11:INFO:This test data not be passed
+2025-03-03 20:59:11:INFO:Test data driven is Pass
+2025-03-03 22:13:25:INFO:**********User Login*************
+2025-03-03 22:13:27:INFO:********Start add product************
+2025-03-03 22:17:56:INFO:**********User Login*************
+2025-03-03 22:17:59:INFO:********Start add product************
+2025-03-03 22:19:59:INFO:**********User Login*************
+2025-03-03 22:20:01:INFO:********Start add product************
+2025-03-03 22:20:02:INFO:*****Validation checking********
+2025-03-03 22:23:03:INFO:**********User Login*************
+2025-03-03 22:23:05:INFO:********Start add product************
+2025-03-03 22:23:06:INFO:*****Validation checking********
+2025-03-03 22:24:40:INFO:**********User Login*************
+2025-03-03 22:24:42:INFO:********Start add product************
+2025-03-03 22:24:43:INFO:*****Validation checking********
+2025-03-03 22:31:05:INFO:**********User Login*************
+2025-03-03 22:31:08:INFO:********Start add product************
+2025-03-03 22:31:08:INFO:*****Validation checking********
+2025-03-03 22:31:09:INFO:Actual text found: Thank you for your order!
+2025-03-03 22:52:08:INFO:****************Test_01_Admin_Login***********************
+2025-03-03 22:52:08:INFO:****************title_verification***********************
+2025-03-03 22:52:15:INFO:****************login_verification***********************
+2025-03-03 22:52:21:INFO:****************text_match***********************
+2025-03-03 22:52:24:INFO:****************invalid_verification***********************
+2025-03-03 22:52:31:INFO:****************text_match***********************
+2025-03-03 22:54:56:INFO:****************login_verification***********************
+2025-03-03 22:55:04:INFO:****************text_match***********************
+2025-03-03 22:55:06:INFO:**********User Login*************
+2025-03-03 22:55:08:INFO:********Start add product************
+2025-03-03 22:55:08:INFO:*****Validation checking********
+2025-03-03 22:55:08:INFO:Actual text found: Thank you for your order!
