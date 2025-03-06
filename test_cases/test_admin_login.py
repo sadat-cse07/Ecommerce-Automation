@@ -1,6 +1,8 @@
 import time
 
+import allure
 import pytest
+from allure_commons.types import AttachmentType
 from selenium.webdriver.common.by import By
 
 from base_pages.Admin_Login_Page import Admin_Login_Page
@@ -8,6 +10,7 @@ from utilies.custom_logger import Logger_Maker
 from utilies.read_properties import Read_config
 
 
+@pytest.mark.usefixtures("log_on_failure")
 class Test_01_Admin_Login:
     page_url = Read_config.login_url()
     textbox_username = Read_config.get_username()
@@ -27,6 +30,11 @@ class Test_01_Admin_Login:
             assert True
             self.driver.close()
         else:
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                name="TitledFailed",
+                attachment_type=AttachmentType.PNG,
+            )
             self.driver.close()
             assert False
 
@@ -54,7 +62,8 @@ class Test_01_Admin_Login:
             assert True
             self.driver.close()
         else:
-            self.driver.save_screenshot(".\\screenshots\\fail.png")
+            # self.driver.save_screenshot(".\\screenshots\\fail.png")
+
             self.driver.close()
             assert False
 
@@ -83,8 +92,18 @@ class Test_01_Admin_Login:
             == "Epic sadface: Username and password do not match any user in this service"
         ):
             self.logger.info("****************text_match***********************")
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                name="VerificationFailed",
+                attachment_type=AttachmentType.PNG,
+            )
             assert True
             self.driver.close()
         else:
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                name="VerificationFailed",
+                attachment_type=AttachmentType.PNG,
+            )
             self.driver.close()
             assert False

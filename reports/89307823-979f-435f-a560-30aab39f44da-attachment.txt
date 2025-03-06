@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_admin_login.py:72 ****************invalid_verification***********************
+[32mINFO    [0m root:test_admin_login.py:94 ****************text_match***********************
