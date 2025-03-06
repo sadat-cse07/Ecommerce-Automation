@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_admin_login.py:22 ****************Test_01_Admin_Login***********************
+[32mINFO    [0m root:test_admin_login.py:23 ****************title_verification***********************

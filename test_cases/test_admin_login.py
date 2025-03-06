@@ -10,7 +10,6 @@ from utilies.custom_logger import Logger_Maker
 from utilies.read_properties import Read_config
 
 
-@pytest.mark.usefixtures("log_on_failure")
 class Test_01_Admin_Login:
     page_url = Read_config.login_url()
     textbox_username = Read_config.get_username()
@@ -30,11 +29,7 @@ class Test_01_Admin_Login:
             assert True
             self.driver.close()
         else:
-            allure.attach(
-                self.driver.get_screenshot_as_png(),
-                name="TitledFailed",
-                attachment_type=AttachmentType.PNG,
-            )
+
             self.driver.close()
             assert False
 

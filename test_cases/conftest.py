@@ -68,7 +68,7 @@ def pytest_addoption(parser):
         "--browser",
         action="store",
         default="chrome",
-        help="Specify the browser:Chrome or Firefox",
+        help="Specify the browser: Chrome or Firefox",
     )
 
 
@@ -94,28 +94,6 @@ def setup(browser):
     driver.quit()  # Quit driver after test execution
 
 
-@pytest.fixture()
-def log_on_failure(request, setup):  # Inject setup fixture to access driver
-    yield
-    item = request.node
-    if hasattr(item, "_store") and "outcome" in item._store:
-        report = item._store["outcome"]
-        if report.failed:  # Check if test failed
-            allure.attach(
-                setup.get_screenshot_as_png(),  # Use setup (driver)
-                name="Failed_Screen_Shot",
-                attachment_type=AttachmentType.PNG,
-            )
-
-
-@pytest.hookimpl(hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-    """Hook to capture test results and store them in the request node."""
-    outcome = yield
-    report = outcome.get_result()
-    item._store["outcome"] = report  # Store test result in request node
-
-
 def pytest_configure(config):
     config.stash[metadata_key]["Project Name"] = "Ecommerce Project Automation"
     config.stash[metadata_key]["Test Module Name"] = "Login Page Test"
@@ -126,3 +104,21 @@ def pytest_configure(config):
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
     metadata.pop("Plugins", None)
+
+
+# Corrected hook function
+@pytest.hookimpl(hookwrapper=True, tryfirst=True)
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    result = outcome.get_result()
+
+    # Check if the test failed
+    if result.failed:
+        # Ensure the driver is accessible
+        driver = item.funcargs.get("setup")  # Fetch the driver from the fixture
+        if driver:
+            allure.attach(
+                driver.get_screenshot_as_png(),
+                name="Failed_Screen_Shot",
+                attachment_type=AttachmentType.PNG,
+            )
