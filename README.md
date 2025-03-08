@@ -15,7 +15,7 @@ This project is an automation framework for testing an **E-commerce application*
 ## Project Structure
 ```
 Ecommerce-Automation/
-│-- tests/                 # Test cases
+│-- test_cases/                 # Test cases
 │   ├── test_admin_login.py      # Login test cases
 │   ├── test_product.py       # product functionality tests
 │   ├── test_checkout.py   # Checkout process tests
@@ -23,12 +23,14 @@ Ecommerce-Automation/
 │   ├── Admin_login_Page.py      # Login page elements & methods
 │   ├── Add_product_Page.py       # Cart page elements & methods
 │   
-│-- utils/                 # Utility functions (helpers, configurations)
-│-- conftest.py            # Pytest configurations & fixtures
+│-- utilies/                 # Utility functions (helpers, configurations)
+    │-- conftest.py            # Pytest configurations & fixtures
 │-- requirements.txt       # Project dependencies
 │-- docker-compose.yml     # Docker configuration for test execution
-│-- pytest.ini             # Pytest configurations
+│-- configuration/
+    |--config.ini             # Pytest configurations
 │-- README.md              # Project documentation
+|--Reports
 ```
 
 ## Installation & Setup
