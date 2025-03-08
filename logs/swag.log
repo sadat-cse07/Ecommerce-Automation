@@ -149,3 +149,48 @@
 2025-03-06 18:14:47:INFO:****************login_verification***********************
 2025-03-06 18:15:00:INFO:****************invalid_verification***********************
 2025-03-06 18:15:07:INFO:****************text_match***********************
+2025-03-07 00:15:01:INFO:Starting tests on chrome browser
+2025-03-07 00:15:03:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D8E2EF90>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:06:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D8DE74D0>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:08:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D8DE79D0>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:11:INFO:Starting tests on chrome browser
+2025-03-07 00:15:13:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D8E70C30>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:15:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D8E50EF0>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:18:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D8E3E9C0>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:20:INFO:Starting tests on chrome browser
+2025-03-07 00:15:22:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D8E3FF00>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:25:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D92CC270>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:15:27:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5D92CC5A0>: Failed to resolve 'selenium-hub' ([Errno 11001] getaddrinfo failed)")': /wd/hub/session
+2025-03-07 00:19:24:INFO:Starting tests on chrome browser
+2025-03-07 00:20:06:INFO:****************Test_01_Admin_Login***********************
+2025-03-07 00:20:06:INFO:****************title_verification***********************
+2025-03-07 00:20:09:INFO:Tests completed on chrome browser
+2025-03-07 00:20:09:INFO:Starting tests on chrome browser
+2025-03-07 00:20:11:INFO:****************login_verification***********************
+2025-03-07 00:20:22:INFO:Tests completed on chrome browser
+2025-03-07 00:20:22:INFO:Starting tests on chrome browser
+2025-03-07 00:20:23:INFO:****************invalid_verification***********************
+2025-03-07 00:20:31:INFO:****************text_match***********************
+2025-03-07 00:20:31:INFO:Tests completed on chrome browser
+2025-03-07 00:24:20:INFO:Starting tests on chrome browser
+2025-03-07 00:24:46:INFO:****************Test_01_Admin_Login***********************
+2025-03-07 00:24:46:INFO:****************title_verification***********************
+2025-03-07 00:24:50:INFO:Tests completed on chrome browser
+2025-03-07 00:24:50:INFO:Starting tests on chrome browser
+2025-03-07 00:24:53:INFO:****************login_verification***********************
+2025-03-07 00:25:04:INFO:Tests completed on chrome browser
+2025-03-07 00:25:04:INFO:Starting tests on chrome browser
+2025-03-07 00:25:06:INFO:****************invalid_verification***********************
+2025-03-07 00:25:13:INFO:****************text_match***********************
+2025-03-07 00:25:15:INFO:Tests completed on chrome browser
+2025-03-07 00:25:55:INFO:Starting tests on chrome browser
+2025-03-07 00:26:19:INFO:****************Test_01_Admin_Login***********************
+2025-03-07 00:26:19:INFO:****************title_verification***********************
+2025-03-07 00:26:23:INFO:Tests completed on chrome browser
+2025-03-07 00:26:23:INFO:Starting tests on chrome browser
+2025-03-07 00:26:26:INFO:****************login_verification***********************
+2025-03-07 00:26:38:INFO:Tests completed on chrome browser
+2025-03-07 00:26:38:INFO:Starting tests on chrome browser
+2025-03-07 00:26:40:INFO:****************invalid_verification***********************
+2025-03-07 00:26:48:INFO:****************text_match***********************
+2025-03-07 00:26:49:INFO:Tests completed on chrome browser

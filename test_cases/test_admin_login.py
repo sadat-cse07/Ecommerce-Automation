@@ -57,7 +57,7 @@ class Test_01_Admin_Login:
             assert True
             self.driver.close()
         else:
-            # self.driver.save_screenshot(".\\screenshots\\fail.png")
+            self.driver.save_screenshot(".\\screenshots\\fail.png")
 
             self.driver.close()
             assert False

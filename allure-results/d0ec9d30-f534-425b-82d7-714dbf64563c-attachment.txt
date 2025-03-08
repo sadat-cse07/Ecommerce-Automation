@@ -1,0 +1,2 @@
+INFO     root:test_admin_login.py:67 ****************invalid_verification***********************
+INFO     root:test_admin_login.py:89 ****************text_match***********************
