@@ -16,13 +16,13 @@ This project is an automation framework for testing an **E-commerce application*
 ```
 Ecommerce-Automation/
 │-- tests/                 # Test cases
-│   ├── test_login.py      # Login test cases
-│   ├── test_cart.py       # Cart functionality tests
+│   ├── test_admin_login.py      # Login test cases
+│   ├── test_product.py       # product functionality tests
 │   ├── test_checkout.py   # Checkout process tests
-│-- pages/                 # Page Object Model (POM) classes
-│   ├── login_page.py      # Login page elements & methods
-│   ├── cart_page.py       # Cart page elements & methods
-│   ├── checkout_page.py   # Checkout page elements & methods
+│-- base_pages/                 # Page Object Model (POM) classes
+│   ├── Admin_login_Page.py      # Login page elements & methods
+│   ├── Add_product_Page.py       # Cart page elements & methods
+│   
 │-- utils/                 # Utility functions (helpers, configurations)
 │-- conftest.py            # Pytest configurations & fixtures
 │-- requirements.txt       # Project dependencies
